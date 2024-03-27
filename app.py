@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from googletrans import Translator
 
-st.title('Análisis de Sentimiento')
+st.title('Análisis de Sentimientos')
 
 st.video("gatitos4.mp4")
 
