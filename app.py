@@ -10,7 +10,7 @@ st.markdown(f"#### ¡Bienvenido a CocinaFacil con ChefIA, tu asistente de cocina
 
 translator = Translator()
 
-with st.expander('Analizar texto'):
+with st.expander('Analizar frase'):
     text = st.text_input('Escribe por favor: ')
     if text:
 
