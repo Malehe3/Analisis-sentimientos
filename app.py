@@ -56,7 +56,7 @@ with st.expander('Analizar frase'):
             st.write("5. Sirve caliente, decorado con perejil fresco si lo deseas.")
         else:
             st.write('Es un sentimiento Neutral 😐')
-            st.subheader("¡Te recomendamos probar esta receta neutra!")
+            st.subheader("¡Te recomendamos probar esta receta!")
             st.write("Nombre: Pasta con salsa de tomate y albahaca")
             st.write("Ingredientes:")
             st.write("- 250g de pasta de tu elección")
