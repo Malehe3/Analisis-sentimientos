@@ -5,6 +5,8 @@ from googletrans import Translator
 
 st.title('Análisis de Sentimiento')
 
+st.video("gatitos4.mp4", width=500)
+
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 
 translator = Translator()
@@ -26,6 +28,6 @@ with st.expander('Analizar texto'):
         else:
             st.write( 'Es un sentimiento Neutral 😐')
             
-with st.expander('Video'):
-    st.write('<video width="500" controls><source src="gatitos4.mp4" type="video/mp4">Your browser does not support the video tag.</video>', unsafe_allow_html=True)
+
+
 
