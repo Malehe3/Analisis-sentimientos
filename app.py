@@ -7,7 +7,7 @@ st.title('CocinaFacil - Análisis de Sentimientos')
 
 st.video("gatitos4.mp4")
 
-st.write("¡Bienvenido a CocinaFacil con ChefIA, tu asistente de cocina personal! Describe tu día en una frase y te recomendaremos una receta adecuada para tu estado de ánimo", font_size=24)
+st.write("¡Bienvenido a CocinaFacil con ChefIA, tu asistente de cocina personal! Describe tu día en una frase y te recomendaremos una receta adecuada para tu estado de ánimo", font_size=104)
 
 translator = Translator()
 
