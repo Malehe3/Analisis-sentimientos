@@ -5,7 +5,7 @@ from googletrans import Translator
 
 st.title('Análisis de Sentimiento')
 
-st.video("gatitos4.mp4", width=200)
+st.video("gatitos4.mp4", width=060)
 
 st.subheader("¡Hola Soy ChefIA, tu asistente de cocina personal. Describe tu día en una frase y te recomendaremos una receta adecuada para tu estado de ánimo")
 
