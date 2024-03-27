@@ -1,13 +1,13 @@
 from textblob import TextBlob
 import pandas as pd
 import streamlit as st
-from PIL import Image
 from googletrans import Translator
 
 st.title('Análisis de Sentimiento')
-image = Image.open('emoticones.jpg')
-st.image(image)
-st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
+
+st.video("gatitos4.mp4", width=500)
+
+st.subheader("¡Hola Soy ChefIA, tu asistente de cocina personal. Describe tu día en una frase y te recomendaremos una receta adecuada para tu estado de ánimo")
 
 translator = Translator()
 
@@ -27,3 +27,4 @@ with st.expander('Analizar texto'):
             st.write( 'Es un sentimiento Negativo 😔')
         else:
             st.write( 'Es un sentimiento Neutral 😐')
+            
