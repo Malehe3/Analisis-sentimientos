@@ -5,7 +5,7 @@ from googletrans import Translator
 
 st.title('Análisis de Sentimiento')
 
-st.video("gatitos4.mp4", width=500)
+st.video("gatitos4.mp4")
 
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 
