@@ -3,11 +3,11 @@ import pandas as pd
 import streamlit as st
 from googletrans import Translator
 
-st.title('Análisis de Sentimientos')
+st.title('CocinaFacil - Análisis de Sentimientos')
 
 st.video("gatitos4.mp4")
 
-st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
+st.subheader("¡Bienvenido a CocinaFacil con ChefIA, tu asistente de cocina personal! Describe tu día en una frase y te recomendaremos una receta adecuada para tu estado de ánimo")
 
 translator = Translator()
 
